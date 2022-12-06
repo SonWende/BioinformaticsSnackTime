@@ -85,6 +85,7 @@ unzip -q pe-64.zip
 Print manifest file to screen: where is the parameter?
 <details>
 <summary>Solution</summary>
+  
 ```cat pe-64-manifest```
 
 --> the $PWD 
@@ -94,7 +95,9 @@ Print only sample ids to screen (use cut ...)
 
 <details>
 <summary>Solution</summary>
+  
 ```cut -f1 pe-64-manifest```
+  
 Prints only the first column of tab delimited file
 </details>
 
